@@ -24,8 +24,8 @@ gps_pos_orbits.py,
 22.	 
 23.	def altaz(sp3id, time_range, lon, lat):
 24.	    print('Satellite:', sp3id)
-25.	    sp3.cddis.username = "chris77ve"
-26.	    sp3.cddis.password = "729TMzEDyQaNqxQ"
+25.	    sp3.cddis.username = "xxxx"
+26.	    sp3.cddis.password = "xxxxxxx"
 27.	    sp3_altaz = sp3.altaz_standard_atmosphere(
 28.	        id=sp3.Sp3Id(sp3id), obstime=astropy.time.Time(time_range),
 29.	        location=astropy.coordinates.EarthLocation.from_geodetic(lon=lon, lat=lat, height=0),
